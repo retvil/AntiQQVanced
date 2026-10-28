@@ -52,17 +52,17 @@ y este proyecto se adhiere al [Semantic Versioning](https://semver.org/spec/v2.0
 
 ### Añadido
 - **Edición Extended**: escaneo de aplicaciones de la Store (Appx) —
-  detecta QQ Music, Alice, Messenger y otras aplicaciones de la Store
+  detecta QQ Music, Messenger, Messenger y otras aplicaciones de la Store
   de QQ, las elimina mediante `Remove-AppxPackage`
 - **Edición Extended**: escaneo de directorios de productos no-navegador
-  bajo `Program Files\QQ\` (QQ Disk, Punto Switcher, IME, ...) con
+  bajo `Program Files\QQ\` (QQ Disk, QQ IME Switcher, IME, ...) con
   copia de seguridad antes de eliminar
 - **Edición Extended**: escaneo de datos locales no-navegador bajo
-  `%LOCALAPPDATA%\QQ\` (datos locales de Punto Switcher, updater de
+  `%LOCALAPPDATA%\QQ\` (datos locales de QQ IME Switcher, updater de
   QQ Disk, builds Beta) — con confirmación, copia de seguridad antes
   de eliminar
 - **Edición Extended**: «Kill Processes» ahora termina los procesos de
-  todos los productos de QQ (QQ Disk, Punto Switcher, aplicaciones
+  todos los productos de QQ (QQ Disk, QQ IME Switcher, aplicaciones
   de la Store), no solo el navegador
 
 ## [2.5.0] - 2026-10-21
@@ -72,7 +72,7 @@ y este proyecto se adhiere al [Semantic Versioning](https://semver.org/spec/v2.0
   (eliminación de QQ Browser + Búsqueda de QQ) y
   **AntiQQExtended** (todos los productos de QQ) — los perfiles de
   producto en `profiles.py` eligen el alcance del escaneo, GUI compartida
-  en `app.py`, puntos de entrada ligeros `main.py` / `main_extended.py`
+  en `app.py`, IMEs de entrada ligeros `main.py` / `main_extended.py`
 - `build.bat` ahora compila ambos EXE
 
 ## [2.4.0] - 2026-10-21
@@ -90,7 +90,7 @@ y este proyecto se adhiere al [Semantic Versioning](https://semver.org/spec/v2.0
   exclusiones de Windows Defender, distribuciones de teclado
   personalizadas (QQ IME)
 - Confirmación de consentimiento: los hallazgos que tocan datos del
-  usuario (archivos de QQ Disk, historial de Punto Switcher,
+  usuario (archivos de QQ Disk, historial de QQ IME Switcher,
   extensiones, cookies, exclusiones de Defender) requieren una
   confirmación adicional explícita antes de la eliminación
 - Pruebas unitarias para detección de bytes `.lnk`, filtrado de líneas de
@@ -101,8 +101,8 @@ y este proyecto se adhiere al [Semantic Versioning](https://semver.org/spec/v2.0
 
 ### Añadido
 - Vectores de secuestro 13–15: servicios de Windows (escaneo por registro,
-  eliminación mediante `sc stop` + `sc delete`), Punto Switcher (detección
-  por el marcador `punto`), asociaciones de archivos (escaneo + eliminación
+  eliminación mediante `sc stop` + `sc delete`), QQ IME Switcher (detección
+  por el marcador `ime`), asociaciones de archivos (escaneo + eliminación
   del ProgId en `FileExts\<ext>\UserChoice`)
 - Diálogo de selección tras el escaneo: elegir exactamente qué hallazgos
   eliminar en lugar de «todo o nada»
@@ -111,7 +111,7 @@ y este proyecto se adhiere al [Semantic Versioning](https://semver.org/spec/v2.0
   deseleccionan automáticamente, pero siguen siendo seleccionables en el
   diálogo; las exclusiones se pueden restablecer desde el diálogo
 - Pruebas unitarias para la persistencia de exclusiones y el marcador de
-  Punto Switcher
+  QQ IME Switcher
 
 ## [2.2.0] - 2026-10-20
 
@@ -155,7 +155,7 @@ y este proyecto se adhiere al [Semantic Versioning](https://semver.org/spec/v2.0
 ## [2.1.2] - 2026-10-20
 
 ### Cambiado
-- Título de la aplicación acortado a «Удаление Яндекс» / «Remove QQ»
+- Título de la aplicación acortado a «Удаление QQ» / «Remove QQ»
   (ru/en/uk)
 - Pie de página fijado en la esquina inferior derecha: autor, versión y
   enlace clicable a GitHub

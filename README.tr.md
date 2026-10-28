@@ -14,7 +14,7 @@ QQ yalnızca bir tarayıcı kurmaz — kırk farklı sistem mekanizmasıyla sess
 
 ## Özellikler
 
-- **Ele geçirme tarayıcısı** — 40 vektörü tespit eder: kurulum yolları, kayıt defterindeki Uninstall girdileri, `UserChoice` ilişkilendirmesi, `StartMenuInternet` kayıtları, `Software\QQ` anahtar ağaçları, `DefaultSearchProvider*` ilkeleri üzerinden ele geçirme, Chromium profillerinin `Preferences` ayarları, `Web Data` (SQLite) anahtar kelimeleri, Firefox `search.json.mozlz4`, legacy `SearchScopes`, autostart girdileri, zamanlanmış görevler, Windows hizmetleri, Punto Switcher, dosya ilişkilendirmeleri, QQ Disk kabuk entegrasyonu, devre dışı otostart, App Paths, kısayollar, ProgramData/Roaming kalıntıları, hosts girdileri, güvenlik duvarı kuralları, URI protokolleri, tarayıcı eklentileri, qq.ru çerezleri, „birlikte aç“ ilişkilendirmeleri, Prefetch/WER izleri, Defender istisnaları, klavye düzenleri, IE başlangıç sayfası ele geçirmesi, başlangıç URL ilkeleri (`RestoreOnStartupURLs`), Firefox ana sayfası, IE bölge haritası, RegisteredApplications girdileri, MUICache izleri, %TEMP% yükleyicileri, Store uygulamaları (QQ Music, Alice), ürün dizinleri, yerel veri dizinleri, QQ.DNS
+- **Ele geçirme tarayıcısı** — 40 vektörü tespit eder: kurulum yolları, kayıt defterindeki Uninstall girdileri, `UserChoice` ilişkilendirmesi, `StartMenuInternet` kayıtları, `Software\QQ` anahtar ağaçları, `DefaultSearchProvider*` ilkeleri üzerinden ele geçirme, Chromium profillerinin `Preferences` ayarları, `Web Data` (SQLite) anahtar kelimeleri, Firefox `search.json.mozlz4`, legacy `SearchScopes`, autostart girdileri, zamanlanmış görevler, Windows hizmetleri, IME Switcher, dosya ilişkilendirmeleri, QQ Disk kabuk entegrasyonu, devre dışı otostart, App Paths, kısayollar, ProgramData/Roaming kalıntıları, hosts girdileri, güvenlik duvarı kuralları, URI protokolleri, tarayıcı eklentileri, qq.ru çerezleri, „birlikte aç“ ilişkilendirmeleri, Prefetch/WER izleri, Defender istisnaları, klavye düzenleri, IE başlangıç sayfası ele geçirmesi, başlangıç URL ilkeleri (`RestoreOnStartupURLs`), Firefox ana sayfası, IE bölge haritası, RegisteredApplications girdileri, MUICache izleri, %TEMP% yükleyicileri, Store uygulamaları (QQ Music, Alice), ürün dizinleri, yerel veri dizinleri, QQ.DNS
 - **Tek tıkla kaldırma** — her vektörün kendi remover'ı vardır; kilitli veritabanları dürüstçe raporlanır, çökme yok
 - **Sabit arama politikası** — varsayılan aramayı 10 arama motorundan birine (Google, Bing, DuckDuckGo, Brave Search, Startpage, Mojeek, Qwant, Ecosia, Yahoo, SearXNG) kilitler: Chrome, Edge, Brave, Vivaldi, Opera ve QQ Browser için HKLM ilkeleri + Firefox/Waterfox için `policies.json`
 - **Politika temizliği** — QQ `DefaultSearchProvider*` değerlerini kayıt defterinden temizler
@@ -35,7 +35,7 @@ QQ yalnızca bir tarayıcı kurmaz — kırk farklı sistem mekanizmasıyla sess
 [Releases](https://github.com/retvil/AntiQQVanced/releases) sayfasından indirin:
 
 - **Windows** — `AntiQQVanced.exe` (taşınabilir, tek dosya, ~35 MB) — QQ Browser ve QQ Arama kaldırma
-- **Windows** — `AntiQQExtended.exe` (taşınabilir, tek dosya, ~35 MB) — tüm QQ ürünlerinin kaldırılması (QQ Disk, Punto Switcher geçmişi, sistem genelinde izler, Store uygulamaları, QQ.DNS)
+- **Windows** — `AntiQQExtended.exe` (taşınabilir, tek dosya, ~35 MB) — tüm QQ ürünlerinin kaldırılması (QQ Disk, IME Switcher geçmişi, sistem genelinde izler, Store uygulamaları, QQ.DNS)
 
 **Yönetici olarak** çalıştırın — HKLM ilkeleri ve kayıt defteri temizliği yükseltilmiş haklar gerektirir.
 

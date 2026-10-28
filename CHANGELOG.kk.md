@@ -10,15 +10,15 @@
 ## [2.8.0] - 2026-10-22
 
 ### Қосылды
-- **IE аймақ картасы сканы (zone map)** — Яндекс домендерінің zone-map
+- **IE аймақ картасы сканы (zone map)** — QQ домендерінің zone-map
   жазбаларын табады («сенімді сайттар» қалдықтары); жою доменнің ішкі ағашын
   алып тастайды (алдымен экспорт)
 - **RegisteredApplications сканы** — әдепкі қосымшалар метадеректеріндегі
-  Яндекс жазбаларын табады; жою мәнді өшіреді (алдымен экспорт)
-- **MUICache сканы** — Яндекс орындалатын файлдарының іске қосу іздерін
+  QQ жазбаларын табады; жою мәнді өшіреді (алдымен экспорт)
+- **MUICache сканы** — QQ орындалатын файлдарының іске қосу іздерін
   табады; жою кеш мәнін өшіреді (алдымен экспорт)
 - **%TEMP% ішіндегі орнатқыш іздері** — scan_traces енді пайдаланушының
-  уақытша папкасында қалған Яндекс орнатқыштарын да репорттайды
+  уақытша папкасында қалған QQ орнатқыштарын да репорттайды
 - **Per-user өнім каталогтары** — scan_product_dirs енді
   `%LOCALAPPDATA%\Programs\QQ*` жолын да қамтиды (QQ Music /
   Messenger / Translate legacy-орнатулары), браузер папкасы шығарылып
@@ -27,43 +27,43 @@
   жолының астында жатқан процестерді де матчтайды (crashpad, updater),
   тек browser.exe/qq.exe атауларының тар тізімі емес
 - **Бастапқы URL hijack сканы** — `RestoreOnStartupURLs` enterprise-саясаттарындағы
-  Яндекс URL-дарын табады (Edge, Chrome, Chromium, Brave, Vivaldi, Opera,
-  Яндекс Browser); жою Яндекс мәндерін тазартады
+  QQ URL-дарын табады (Edge, Chrome, Chromium, Brave, Vivaldi, Opera,
+  QQ Browser); жою QQ мәндерін тазартады
 - **Firefox басты беті hijack сканы** — Firefox/Waterfox `prefs.js`
-  ішіндегі Яндекске апаратын `browser.startup.homepage` табады; жою файлды
+  ішіндегі QQке апаратын `browser.startup.homepage` табады; жою файлды
   қайта жазады (алдымен бекап)
 
 ## [2.7.0] - 2026-10-21
 
 ### Қосылды
-- **QQ.DNS сканы** (Extended) — Яндекс DNS серверлерімен (77.88.8.x
+- **QQ.DNS сканы** (Extended) — QQ DNS серверлерімен (77.88.8.x
   basic/safe/family) бапталған желі адаптерлерін табады; жою адаптерге
   автоматты DNS қайтарады; растаумен
-- **Бастапқы бет hijack сканы** — Яндекс/qq.com көрсететін legacy IE басты
+- **Бастапқы бет hijack сканы** — QQ/qq.com көрсететін legacy IE басты
   бетін (`HKCU\...\Internet Explorer\Main\Start Page`) табады; жою әдепкіні
   қайтарады (еккі басылым)
 
 ## [2.6.0] - 2026-10-21
 
 ### Қосылды
-- **Extended басылымы**: Store (Appx) қосымша сканы — QQ Music, Alice,
-  Messenger және басқа Яндекс Store қосымшаларын табады,
+- **Extended басылымы**: Store (Appx) қосымша сканы — QQ Music, Messenger,
+  Messenger және басқа QQ Store қосымшаларын табады,
   `Remove-AppxPackage` арқылы жояды
 - **Extended басылымы**: `Program Files\QQ\` астындағы браузерлік емес
-  өнім каталогтарын скан (QQ Disk, Punto Switcher, IME, ...) — жою
+  өнім каталогтарын скан (QQ Disk, QQ IME Switcher, IME, ...) — жою
   алдында бекап
 - **Extended басылымы**: `%LOCALAPPDATA%\QQ\` астындағы браузерлік емес
-  жергілікті деректер сканы (Punto Switcher жергілікті деректері, QQ
+  жергілікті деректер сканы (QQ IME Switcher жергілікті деректері, QQ
   Disk апдейтері, Beta жинақтары) — растаумен, жою алдында бекап
-- **Extended басылымы**: «Kill Processes» енді тек браузерді емес, Яндекстің
-  барлық өнім процестерін (QQ Disk, Punto Switcher, Store қосымшалары)
+- **Extended басылымы**: «Kill Processes» енді тек браузерді емес, QQтің
+  барлық өнім процестерін (QQ Disk, QQ IME Switcher, Store қосымшалары)
   аяқтайды
 
 ## [2.5.0] - 2026-10-21
 
 ### Қосылды
 - Бір код базасынан екі басылым: **AntiQQVanced** (QQ Browser +
-  QQ Search жою) және **AntiQQExtended** (Яндекстің барлық
+  QQ Search жою) және **AntiQQExtended** (QQтің барлық
   өнімдері) — `profiles.py` ішіндегі өнім профильдері скан ауқымын таңдайды,
   ортақ GUI `app.py` ішінде, жұқа кіру нүктелері `main.py` / `main_extended.py`
 - `build.bat` енді екі EXE де жинайды
@@ -82,7 +82,7 @@
   Prefetch / CrashDumps / WER іздері, Windows Defender ерекшеліктері,
   пайдаланушы пернетақта орналасулары (QQ IME)
 - Растау: пайдаланушы деректеріне қатысты табылғандар (QQ Disk файлдары,
-  Punto Switcher тарихы, кеңейтулер, cookie файлдары, Defender ерекшеліктері)
+  QQ IME Switcher тарихы, кеңейтулер, cookie файлдары, Defender ерекшеліктері)
   жою алдында нақты қосымша растауды қажет етеді
 - `.lnk` байт-детекті, hosts жолдарын сүзгілеу, брандмауэр шығысын парсинг
   және consent-префикстер қамтуы үшін юнит-тесттер
@@ -91,7 +91,7 @@
 
 ### Қосылды
 - 13-ші–15-ші hijack векторлары: Windows қызметтері (реестр бойынша скан,
-  `sc stop` + `sc delete` арқылы жою), Punto Switcher (`punto` маркері бойынша
+  `sc stop` + `sc delete` арқылы жою), QQ IME Switcher (`ime` маркері бойынша
   детект), файлдық байланыстырулар (`FileExts\<ext>\UserChoice` ProgId сканы
   + жою)
 - Сканнан кейінгі таңдау диалогы: «барлығы немесе ештеңе» орнына нақты қай
@@ -100,7 +100,7 @@
   `%APPDATA%\AntiQQVanced\exclusions.json` ішіне сақтауға болады —
   келесі скандар оларды автоматты түрде таңдамайды, бірақ диалогта таңдатылып
   тұрады; шығарып тастауларды диалогтан қайта орнатуға болады
-- Шығарып тастаулардың сақталуы және Punto Switcher маркері үшін юнит-тесттер
+- Шығарып тастаулардың сақталуы және QQ IME Switcher маркері үшін юнит-тесттер
 
 ## [2.2.0] - 2026-10-20
 
@@ -108,7 +108,7 @@
 - Жою алдында бекап: әр қозғалған реестр кілті / профиль файлы жою алдында
   `%APPDATA%\AntiQQVanced\backup\<timestamp>\` ішіне экспортталады
 - Операциялар журналы: `%APPDATA%\AntiQQVanced\antiqq.log`
-- 12-ші hijack векторы: Windows Task Scheduler жазбалары (Яндекс апдейтер
+- 12-ші hijack векторы: Windows Task Scheduler жазбалары (QQ апдейтер
   тапсырмалары)
 - HKCU Chromium саясаттарының сканы/тазартуы (per-user саясаттар, бұрын тек
   HKLM)
@@ -138,7 +138,7 @@
 ## [2.1.2] - 2026-10-20
 
 ### Өзгерді
-- Қосымша тақырыбы «Удаление Яндекс» / «Remove QQ» (ru/en/uk) болып
+- Қосымша тақырыбы «Удаление QQ» / «Remove QQ» (ru/en/uk) болып
   қысқартылды
 - Футер оң жақ төменгі бұрышқа бекітілді: автор, нұсқа және GitHub
   сілтемесі
@@ -163,17 +163,17 @@
 [TheCawa/AntiQQ](https://github.com/TheCawa/AntiQQ) 1.3 форкі.
 
 ### Қосылды
-- **Іздеу hijack сканері** — Яндекстің әдепкі іздеу/браузер болып тіркелуіне
+- **Іздеу hijack сканері** — QQтің әдепкі іздеу/браузер болып тіркелуіне
   қолданатын 11 векторды анықтайды:
   - дискідегі орнату каталогтары
   - реестрдегі Uninstall жазбалары (HKLM, WOW6432Node, HKCU)
   - Windows әдепкі-браузер ассоциациясы (http/https үшін `UserChoice` ProgId)
   - `StartMenuInternet` браузер клиент тіркелулері
   - жеке `Software\QQ` кілт ағаштары (HKCU/HKLM/WOW6432Node)
-  - `DefaultSearchProvider*` enterprise-саясаттары арқылы hijack (Яндекстің
+  - `DefaultSearchProvider*` enterprise-саясаттары арқылы hijack (QQтің
     өзін бекітудің қатты жолы)
   - Chromium профильдерінің per-profile `Preferences` JSON (Chrome, Edge,
-    Brave, Vivaldi, Яндекс Browser)
+    Brave, Vivaldi, QQ Browser)
   - Chromium `Web Data` SQLite базаларындағы іздеу жүйелерінің кілт сөз
     жолдары
   - Firefox/Waterfox `search.json.mozlz4` (құрамында pure-Python LZ4 блок
@@ -190,10 +190,10 @@
   (Google, Bing, DuckDuckGo, Brave Search, Startpage, Mojeek, Qwant, Ecosia,
   Yahoo, SearXNG):
   - Chromium тұқымдасы HKLM `SOFTWARE\Policies\...` `DefaultSearchProvider*`
-    мәндері арқылы (Chrome, Edge, Brave, Vivaldi, Opera, Яндекс Browser)
+    мәндері арқылы (Chrome, Edge, Brave, Vivaldi, Opera, QQ Browser)
   - Firefox/Waterfox `distribution\policies.json` арқылы (`SearchEngines` +
     `LockDefaultSearchEngine` + `PreventSearchEngineInstall`)
-- **«Яндекс саясаттарын жою»** батырмасы — Яндекс `DefaultSearchProvider*`
+- **«QQ саясаттарын жою»** батырмасы — QQ `DefaultSearchProvider*`
   саясат мәндерін реестрден тазартады
 - **10 UI тілі** (ru, en, uk, kk, de, fr, es, pl, tr, zh) жеке `translations.py`
   модулінде; жүйе тілі Windows UI language API арқылы автоматты анықталады
@@ -207,7 +207,7 @@
 ## [1.3.0] - upstream
 
 [TheCawa/AntiQQ](https://github.com/TheCawa/AntiQQ) базасы:
-- Яндекс Browser процестерін аяқтау (`browser.exe`, `qq.exe`)
+- QQ Browser процестерін аяқтау (`browser.exe`, `qq.exe`)
 - Орнату жолдарын іздеу
 - Реестрдегі Uninstall жазбаларын тазарту
 - Браузер папкасын жою
