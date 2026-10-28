@@ -10,11 +10,11 @@
 
 QQ ставит не просто браузер — он тихо прописывается поиском и браузером по умолчанию через множество механизмов системы: ассоциации в реестре, enterprise-политики, настройки профилей браузеров, даже базы поисковиков внутри профилей Chromium. Удаление одного браузера этого не отменяет.
 
-**AntiQQ Vanced** (форк [TheCawa/AntiQQ](https://github.com/TheCawa/AntiQQ)) находит **все векторы захвата** (28 в VANCED, 39 в EXTENDED), убирает их одной кнопкой, а затем **жёстко закрепляет поиск по умолчанию** за выбранным вами поисковиком через enterprise-политики Windows — чтобы ничего не могло тихо вернуть всё обратно.
+**AntiQQ Vanced** (форк [TheCawa/AntiYandex](https://github.com/TheCawa/AntiYandex)) находит **все векторы захвата** (28 в VANCED, 39 в EXTENDED), убирает их одной кнопкой, а затем **жёстко закрепляет поиск по умолчанию** за выбранным вами поисковиком через enterprise-политики Windows — чтобы ничего не могло тихо вернуть всё обратно.
 
 ## Возможности
 
-- **Сканер захвата** — детект 28 векторов (VANCED) / 39 векторов (EXTENDED): пути установки, записи Uninstall в реестре, ассоциация `UserChoice`, регистрации `StartMenuInternet`, деревья ключей `Software\QQ`, hijack через политики `DefaultSearchProvider*`, `Preferences` профилей Chromium, ключевые слова в `Web Data` (SQLite), `search.json.mozlz4` Firefox, legacy `SearchScopes`, автозапуск, планировщик задач, службы Windows, IME Switcher, файловые ассоциации, интеграция QQ Disk в проводнике, отключённый автозапуск, App Paths, ярлыки, остатки в ProgramData/Roaming, записи в hosts, правила брандмауэра, URI-протоколы, расширения браузеров, куки qq.ru, ассоциации «открыть с помощью», следы Prefetch/WER, исключения Defender, раскладки клавиатуры, hijack стартовой страницы IE, политики стартовых URL (`RestoreOnStartupURLs`), домашняя страница Firefox, зона IE (zone map), записи RegisteredApplications, следы MUICache, инсталляторы в %TEMP%, Store-приложения (QQ Music, Alice), каталоги продуктов, каталоги локальных данных, QQ.DNS
+- **Сканер захвата** — детект 28 векторов (VANCED) / 39 векторов (EXTENDED): пути установки, записи Uninstall в реестре, ассоциация `UserChoice`, регистрации `StartMenuInternet`, деревья ключей `Software\QQ`, hijack через политики `DefaultSearchProvider*`, `Preferences` профилей Chromium, ключевые слова в `Web Data` (SQLite), `search.json.mozlz4` Firefox, legacy `SearchScopes`, автозапуск, планировщик задач, службы Windows, IME Switcher, файловые ассоциации, интеграция QQ Disk в проводнике, отключённый автозапуск, App Paths, ярлыки, остатки в ProgramData/Roaming, записи в hosts, правила брандмауэра, URI-протоколы, расширения браузеров, куки qq.ru, ассоциации «открыть с помощью», следы Prefetch/WER, исключения Defender, раскладки клавиатуры, hijack стартовой страницы IE, политики стартовых URL (`RestoreOnStartupURLs`), домашняя страница Firefox, зона IE (zone map), записи RegisteredApplications, следы MUICache, инсталляторы в %TEMP%, Store-приложения (QQ Music), каталоги продуктов, каталоги локальных данных, QQ.DNS
 - **Удаление в один клик** — у каждого вектора свой remover; заблокированные базы честно репортятся, без крашей
 - **Жёсткая политика поиска** — закрепляет поиск за одним из 10 поисковиков (Google, Bing, DuckDuckGo, Brave Search, Startpage, Mojeek, Qwant, Ecosia, Yahoo, SearXNG) через HKLM-политики для Chrome, Edge, Brave, Vivaldi, Opera и QQ Browser + `policies.json` для Firefox/Waterfox
 - **Чистка политик** — вычищает значения `DefaultSearchProvider*` QQ из реестра
@@ -67,7 +67,7 @@ python main.py
 
 ## Автор и поддержка
 
-**Nod33Eset** — форк [TheCawa/AntiQQ](https://github.com/TheCawa/AntiQQ). Issues и PR — приветствуются.
+**Nod33Eset** — форк [TheCawa/AntiYandex](https://github.com/TheCawa/AntiYandex). Issues и PR — приветствуются.
 
 Если инструмент избавил вас от QQа — можно поддержать разработку:
 
@@ -82,3 +82,5 @@ python main.py
 ## Лицензия
 
 MIT — см. [LICENSE](LICENSE).
+
+
