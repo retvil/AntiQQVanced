@@ -166,7 +166,7 @@ hazırlanmıştır ve bu proje [Semantic Versioning](https://semver.org/spec/v2.
 
 ## [2.0.0] - 2026-10-20
 
-[TheCawa/AntiQQ](https://github.com/TheCawa/AntiQQ) 1.3 çatalı.
+[TheCawa/AntiYandex](https://github.com/TheCawa/AntiYandex) 1.3 çatalı.
 
 ### Eklendi
 - **Arama ele geçirme tarayıcısı** — QQ'in varsayılan
@@ -215,7 +215,7 @@ hazırlanmıştır ve bu proje [Semantic Versioning](https://semver.org/spec/v2.
 
 ## [1.3.0] - upstream
 
-[TheCawa/AntiQQ](https://github.com/TheCawa/AntiQQ) tabanı:
+[TheCawa/AntiYandex](https://github.com/TheCawa/AntiYandex) tabanı:
 - QQ Browser süreçlerinin sonlandırılması (`browser.exe`, `qq.exe`)
 - Kurulum yollarının aranması
 - Kayıt defterindeki Uninstall girdilerinin temizlenmesi
@@ -226,3 +226,4 @@ hazırlanmıştır ve bu proje [Semantic Versioning](https://semver.org/spec/v2.
 [2.1.2]: https://github.com/retvil/AntiQQVanced/compare/v2.1.0...v2.1.2
 [2.1.0]: https://github.com/retvil/AntiQQVanced/compare/v2.0.0...v2.1.0
 [2.0.0]: https://github.com/retvil/AntiQQVanced/compare/v1.3.0...v2.0.0
+

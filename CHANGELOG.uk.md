@@ -158,7 +158,7 @@
 
 ## [2.0.0] - 2026-10-20
 
-Форк [TheCawa/AntiQQ](https://github.com/TheCawa/AntiQQ) 1.3.
+Форк [TheCawa/AntiYandex](https://github.com/TheCawa/AntiYandex) 1.3.
 
 ### Додано
 - **Сканер hijack пошуку** — детектить 11 векторів, якими QQ
@@ -205,7 +205,7 @@
 
 ## [1.3.0] - upstream
 
-База [TheCawa/AntiQQ](https://github.com/TheCawa/AntiQQ):
+База [TheCawa/AntiYandex](https://github.com/TheCawa/AntiYandex):
 - Завершення процесів QQ.Браузера (`browser.exe`, `qq.exe`)
 - Пошук шляхів встановлення
 - Чистка записів Uninstall у реєстрі
@@ -216,3 +216,4 @@
 [2.1.2]: https://github.com/retvil/AntiQQVanced/compare/v2.1.0...v2.1.2
 [2.1.0]: https://github.com/retvil/AntiQQVanced/compare/v2.0.0...v2.1.0
 [2.0.0]: https://github.com/retvil/AntiQQVanced/compare/v1.3.0...v2.0.0
+

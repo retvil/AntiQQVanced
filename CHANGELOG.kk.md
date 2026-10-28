@@ -160,7 +160,7 @@
 
 ## [2.0.0] - 2026-10-20
 
-[TheCawa/AntiQQ](https://github.com/TheCawa/AntiQQ) 1.3 форкі.
+[TheCawa/AntiYandex](https://github.com/TheCawa/AntiYandex) 1.3 форкі.
 
 ### Қосылды
 - **Іздеу hijack сканері** — QQтің әдепкі іздеу/браузер болып тіркелуіне
@@ -206,7 +206,7 @@
 
 ## [1.3.0] - upstream
 
-[TheCawa/AntiQQ](https://github.com/TheCawa/AntiQQ) базасы:
+[TheCawa/AntiYandex](https://github.com/TheCawa/AntiYandex) базасы:
 - QQ Browser процестерін аяқтау (`browser.exe`, `qq.exe`)
 - Орнату жолдарын іздеу
 - Реестрдегі Uninstall жазбаларын тазарту
@@ -217,3 +217,4 @@
 [2.1.2]: https://github.com/retvil/AntiQQVanced/compare/v2.1.0...v2.1.2
 [2.1.0]: https://github.com/retvil/AntiQQVanced/compare/v2.0.0...v2.1.0
 [2.0.0]: https://github.com/retvil/AntiQQVanced/compare/v1.3.0...v2.0.0
+
