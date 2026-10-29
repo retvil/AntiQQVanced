@@ -67,7 +67,7 @@ _EXTENDED_ONLY: frozenset[str] = frozenset({
     "scan_firewall_rules",
     "scan_defender_exclusions",
     "scan_keyboard_layouts",     # QQ IME
-    "scan_store_apps",           # QQ Music / Alice / Messenger (Appx)
+    "scan_store_apps",           # QQ Music / Messenger / Messenger (Appx)
     "scan_product_dirs",         # Program Files\QQ\* non-browser products
     "scan_local_data_dirs",      # %LOCALAPPDATA%\QQ\* non-browser data
     "scan_dns_servers",          # QQ.DNS (77.88.8.x) in network adapters
