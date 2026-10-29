@@ -26,7 +26,7 @@ QQ n'installe pas qu'un navigateur — il s'enregistre silencieusement comme rec
 <details>
 <summary>Fenêtre principale</summary>
 
-![Fenêtre principale d'AntiQQVanced](docs/screenshot.png)
+![Fenêtre principale d'AntiQQVanced](screenshot.png)
 
 </details>
 
@@ -81,7 +81,7 @@ Si l'outil t'a débarrassé de QQ, tu peux soutenir le développement :
 
 ## Licence
 
-MIT — voir [LICENSE](LICENSE).
+MIT — voir [LICENSE](../LICENSE).
 
 
 

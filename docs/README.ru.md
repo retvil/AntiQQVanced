@@ -26,7 +26,7 @@ QQ ставит не просто браузер — он тихо пропис�
 <details>
 <summary>Главное окно</summary>
 
-![Главное окно AntiQQVanced](docs/screenshot.png)
+![Главное окно AntiQQVanced](screenshot.png)
 
 </details>
 
@@ -81,7 +81,7 @@ python main.py
 
 ## Лицензия
 
-MIT — см. [LICENSE](LICENSE).
+MIT — см. [LICENSE](../LICENSE).
 
 
 

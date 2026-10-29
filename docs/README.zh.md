@@ -26,7 +26,7 @@ QQ 安装的不只是一个浏览器 — 它通过四十种不同的系统机制
 <details>
 <summary>主窗口</summary>
 
-![AntiQQVanced 主窗口](docs/screenshot.png)
+![AntiQQVanced 主窗口](screenshot.png)
 
 </details>
 
@@ -81,7 +81,7 @@ python main.py
 
 ## 许可证
 
-MIT — 见 [LICENSE](LICENSE)。
+MIT — 见 [LICENSE](../LICENSE)。
 
 
 

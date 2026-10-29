@@ -26,7 +26,7 @@ QQ nie instaluje tylko przeglądarki — po cichu rejestruje się jako domyślna
 <details>
 <summary>Okno główne</summary>
 
-![Okno główne AntiQQVanced](docs/screenshot.png)
+![Okno główne AntiQQVanced](screenshot.png)
 
 </details>
 
@@ -81,7 +81,7 @@ Jeśli narzędzie uwolniło Cię od QQa — możesz wesprzeć rozwój:
 
 ## Licencja
 
-MIT — zob. [LICENSE](LICENSE).
+MIT — zob. [LICENSE](../LICENSE).
 
 
 

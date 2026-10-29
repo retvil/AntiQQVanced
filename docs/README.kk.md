@@ -26,7 +26,7 @@ QQ жай ғана браузер орнатпайды — ол жүйенің �
 <details>
 <summary>Негізгі терезе</summary>
 
-![AntiQQVanced негізгі терезесі](docs/screenshot.png)
+![AntiQQVanced негізгі терезесі](screenshot.png)
 
 </details>
 
@@ -81,7 +81,7 @@ python main.py
 
 ## Лицензия
 
-MIT — қ. [LICENSE](LICENSE).
+MIT — қ. [LICENSE](../LICENSE).
 
 
 

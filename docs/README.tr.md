@@ -26,7 +26,7 @@ QQ yalnızca bir tarayıcı kurmaz — kırk farklı sistem mekanizmasıyla sess
 <details>
 <summary>Ana pencere</summary>
 
-![AntiQQVanced ana penceresi](docs/screenshot.png)
+![AntiQQVanced ana penceresi](screenshot.png)
 
 </details>
 
@@ -81,7 +81,7 @@ Araç sizi QQ'ten kurtardıysa, geliştirmeyi destekleyebilirsiniz:
 
 ## Lisans
 
-MIT — bkz. [LICENSE](LICENSE).
+MIT — bkz. [LICENSE](../LICENSE).
 
 
 

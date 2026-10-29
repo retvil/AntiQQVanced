@@ -26,7 +26,7 @@ QQ no instala solo un navegador — se registra silenciosamente como buscador y 
 <details>
 <summary>Ventana principal</summary>
 
-![Ventana principal de AntiQQVanced](docs/screenshot.png)
+![Ventana principal de AntiQQVanced](screenshot.png)
 
 </details>
 
@@ -81,7 +81,7 @@ Si la herramienta te libró de QQ, puedes apoyar el desarrollo:
 
 ## Licencia
 
-MIT — ver [LICENSE](LICENSE).
+MIT — ver [LICENSE](../LICENSE).
 
 
 
